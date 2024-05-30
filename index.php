@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel ADM - InovaByte</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body  {
+        background-image: url('img.png');
+        /*background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; */
+      }
+    </style>
+</head>
+<body>
+ <nav class="navbar bg-dark bg-primary navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!--<a id="tituloSistema" class="navbar-brand navColorWhite " href="#"><i class="fa fa-gg-circle" aria-hidden="true"></i> Sistema Alex</a>-->
+        <a href="#"><img src="img/img1-removebg-preview" alt="Minha Logo" height="55" width="60"></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav ">
+          <li class="active barraNavegacao"><a href="#home"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+          <li class="dropdown barraNavegacao">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cog" aria-hidden="true"></i>
+              Serviços<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#dashboard"><i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard</a></li>
+              <li><a href="#gerencial"><i class="fa fa-product-hunt" aria-hidden="true"></i> Gerenciamento de Produtos</a></li>
+              <li><a href="#compras"><i class="fa fa-money" aria-hidden="true"></i> Compras</a></li>
+              <li><a href="#vendas"><i class="fa fa-usd"   aria-hidden="true"></i> Vendas</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Relatorios</li>
+              <li><a href="#relatoriosCompras">Relatorio de Compras e Vendas</a></li>
+              <li><a href="#relatorios">Relatorios de Produtos cadastrados e Estoque</a></li>
+            </ul>
+          </li>
+          <li class="barraNavegacao"><a href="#clientes"><i class="fa fa-male" aria-hidden="true"></i> Clientes</a></li>
+          <li class="barraNavegacao"><a href="#usuarios"><i class="fa fa-user-o" aria-hidden="true"></i> Usuários</a></li>
+          <li class="barraNavegacao"><a href="#usuarios"><i class="fa fa-user-o" aria-hidden="true"></i> Usuários</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class = "navColorWhite" href="?sair"><i class="fa fa-sign-in" aria-hidden="true"></i> Sair!</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav> 
+  <!--<img class = 'imgBackgroud' src="img/img2.png">-->
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
