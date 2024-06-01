@@ -1,63 +1,256 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel ADM - InovaByte</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/estilo.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-      body  {
-        background-image: url('img.png');
-        /*background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat; */
-      }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/estiloSite.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>InovaByte Site</title>
 </head>
+
 <body>
- <nav class="navbar bg-dark bg-primary navbar-static-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <!--<a id="tituloSistema" class="navbar-brand navColorWhite " href="#"><i class="fa fa-gg-circle" aria-hidden="true"></i> Sistema Alex</a>-->
-        <a href="#"><img src="img/img1-removebg-preview" alt="Minha Logo" height="55" width="60"></a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav ">
-          <li class="active barraNavegacao"><a href="#home"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-          <li class="dropdown barraNavegacao">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cog" aria-hidden="true"></i>
-              Serviços<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#dashboard"><i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard</a></li>
-              <li><a href="#gerencial"><i class="fa fa-product-hunt" aria-hidden="true"></i> Gerenciamento de Produtos</a></li>
-              <li><a href="#compras"><i class="fa fa-money" aria-hidden="true"></i> Compras</a></li>
-              <li><a href="#vendas"><i class="fa fa-usd"   aria-hidden="true"></i> Vendas</a></li>
-              <li role="separator" class="divider"></li>
-              <li class="dropdown-header">Relatorios</li>
-              <li><a href="#relatoriosCompras">Relatorio de Compras e Vendas</a></li>
-              <li><a href="#relatorios">Relatorios de Produtos cadastrados e Estoque</a></li>
-            </ul>
-          </li>
-          <li class="barraNavegacao"><a href="#clientes"><i class="fa fa-male" aria-hidden="true"></i> Clientes</a></li>
-          <li class="barraNavegacao"><a href="#usuarios"><i class="fa fa-user-o" aria-hidden="true"></i> Usuários</a></li>
-          <li class="barraNavegacao"><a href="#usuarios"><i class="fa fa-user-o" aria-hidden="true"></i> Usuários</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class = "navColorWhite" href="?sair"><i class="fa fa-sign-in" aria-hidden="true"></i> Sair!</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav> 
-  <!--<img class = 'imgBackgroud' src="img/img2.png">-->
+    <nav class="navbar navbar-static-top navegacaoMenu bg-primary d-flex flex-column align-items: center">
+        <!--INICIO FIM navbar navbar-static-top-->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bg-danger"></span>
+                    <span class="icon-bar bg-danger"></span>
+                    <span class="icon-bar bg-danger"></span>
+                </button>
+                <!--<a id="tituloSistema" class="navbar-brand navColorWhite " href="#"><i class="fa fa-gg-circle" aria-hidden="true"></i> Sistema Alex</a>-->
+                <a href="#"><img src="img/img1-removebg-preview.png" alt="Minha Logo" height="55" width="60" /></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active barraNavegacao">
+                        <a href="#home"><i class="fa fa-home" aria-hidden="true"></i>
+                            Inicio</a>
+                    </li>
+                    <li class="barraNavegacao">
+                        <a href="#novidades"><i class="fa fa-star" aria-hidden="true"></i>
+                            Novidades</a>
+                    </li>
+                    <li class="dropdown barraNavegacao">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-product-hunt"
+                                aria-hidden="true"></i>
+                            Categorias <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Setup</li>
+                            <li>
+                                <a href="#desktop"><i class="fa fa-desktop" aria-hidden="true"></i>
+                                    Desktop</a>
+                            </li>
+                            <li>
+                                <a href="#notbook"><i class="fa fa-laptop" aria-hidden="true"></i>
+                                    Notbooks</a>
+                            </li>
+                            <li>
+                                <a href="#celulares"><i class="fa fa-tablet" aria-hidden="true"></i>
+                                    Celulares</a>
+                            </li>
+                            <li>
+                                <a href="#informatica"><i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                                    Informática</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Eletronicos</li>
+                            <li>
+                                <a href="#video-games"><i class="fa fa-gamepad" aria-hidden="true"></i>
+                                    Vídeo Games</a>
+                            </li>
+                            <li>
+                                <a href="#tvs"><i class="fa fa-television" aria-hidden="true"></i>
+                                    TVs</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="barraNavegacao">
+                        <a href="#usuarios"><i class="fa faNaNuser-o" aria-hidden="true"></i>
+                            Entrar em contato</a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+                <ul class="nav navbar-nav barraNavegacao navbar-right">
+                    <li>
+                        <a href="#pesquisar"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#carrinho"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#login"><i class="fa fa-sign-in" aria-hidden="true"></i>
+                            Login!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--CABEÇALHO FIM navbar navbar-static-top-->
+    <header>
+        <h4 class="tituloHeader">Seja Bem vindo</h4>
+    </header>
+    <section>
+        <div class="row">
+            <div class="col-12">
+                <img src="img/banner.png" class="img-fluid img-thumbnail img-lg bannerSite" alt="Imagem responsiva" />
+            </div>
+            <div class="col-12 mt-3">
+                <button class="btn btn-primary buttonBanner mx-auto" type="button">
+                    Comece já
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="col-12">
+                <h4 class="nossosProdutos">Nossos Produtos</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="cardProd">
+        <div class="d-flex row">
+            <div class="card-group">
+                <div class="col-md-3">
+                    <div class="card cardProduto">
+                        <div class="imagem">
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                                alt="Nome do Produto" />
+                        </div>
+                        <div class="card-body informacoes">
+                            <h3 class="nome">Nome do Produto</h3>
+                            <p class="descricao">descrição do Produto</p>
+                            <p class="preco">R$ 100,00</p>
+                            <button class="botaoCarrinho">
+                                Adicionar ao carrinho
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card cardProduto">
+                        <div class="imagem">
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                                alt="Nome do Produto" />
+                        </div>
+                        <div class="card-body informacoes">
+                            <h3 class="nome">Nome do Produto</h3>
+                            <p class="descricao">descrição do Produto</p>
+                            <p class="preco">R$ 100,00</p>
+                            <button class="botaoCarrinho">
+                                Adicionar ao carrinho
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card cardProduto">
+                        <div class="imagem">
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                                alt="Nome do Produto" />
+                        </div>
+                        <div class="card-body informacoes">
+                            <h3 class="nome">Nome do Produto</h3>
+                            <p class="descricao">descrição do Produto</p>
+                            <p class="preco">R$ 100,00</p>
+                            <button class="botaoCarrinho">
+                                Adicionar ao carrinho
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card cardProduto">
+                        <div class="imagem">
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                                alt="Nome do Produto" />
+                        </div>
+                        <div class="card-body informacoes">
+                            <h3 class="nome">Nome do Produto</h3>
+                            <p class="descricao">descrição do Produto</p>
+                            <p class="preco">R$ 100,00</p>
+                            <button class="botaoCarrinho">
+                                Adicionar ao carrinho
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center rodapeSite">
+        <div class="container p-4">
+            <section>
+                <div class="row d-flex">
+                    <div class="col-md-12">
+                        <p class="tituloRodape">
+                            InovaByte.com
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="listaRodape">
+                        <a class="rodapeLink" href="#">Home</a>
+                        <a class="rodapeLink" href="#">Blog</a>
+                        <a class="rodapeLink" href="#">Sobre</a>
+                        <a class="rodapeLink" href="#">Contato</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="contatosListaRodape">
+                    <a data-mdb-ripple-init style="background-color: #3b5998; color: white;"
+                        class="btn btn-outline btn-floating m-1 contatoLink" href="#!" role="button">
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a data-mdb-ripple-init style="background-color: #55acee; color: white;"
+                        class="btn btn-outline btn-floating m-1 contatoLink" href="#!" role="button">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a data-mdb-ripple-init style="background-color: #dd4b39; color: white;"
+                        class="btn btn-outline btn-floating m-1 contatoLink" href="#!" role="button">
+                        <i class="fa fa-google"></i>
+                    </a>
+                    <a data-mdb-ripple-init style="background-color: #ac2bac; color: white;"
+                        class="btn btn-outline btn-floating m-1 contatoLink" href="#!" role="button">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a data-mdb-ripple-init style="background-color: #0082ca; color: white;"
+                        class="btn btn-outline btn-floating m-1 contatoLink" href="#!" role="button">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a data-mdb-ripple-init style="background-color: #15ce18; color: white;"
+                        class="btn btn-outline btn-floating m-1 contatoLink" href="#!" role="button">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="copyrightRodape">Copyright ©2024 Todos os direitos reservados | Template criado por  Alex Pedro.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
 </html>
