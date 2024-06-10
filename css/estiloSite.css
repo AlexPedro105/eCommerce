@@ -201,6 +201,52 @@ a.rodapeLink {
 
 /*Seção Footer FIM*/
 
+/*TELA PRODUTOS */
+/*PRODUTOS FILTROS INICIO*/
+.filtrosProdutos{
+    padding: 0px 35px 0px 35px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.selecionaProdutos{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 9px;
+
+}
+
+.selecionaProdutos > span{
+    padding-right:8px;
+}
+
+.selecionaProdutos > a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.selecionaProdutosReiniciar {
+    padding-left: 15px;
+   
+}
+
+.estoqueProdutos{
+    font-size: 16px;
+}
+
+.estoqueProdutos, input{
+    padding-left: 15px;
+}
+
+.estoqueProdutos > span {
+    padding-left: 25px;
+}
+
+/*PRODUTOS FILTROS FIM*/
+
+
+
 
 /*Area de responsividade*/
 @media screen and (max-width:1280px) {
