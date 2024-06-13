@@ -203,17 +203,25 @@ a.rodapeLink {
 
 /*TELA PRODUTOS */
 /*PRODUTOS FILTROS INICIO*/
-.filtrosProdutos{
+
+.dropdown-menu .divider {
+    margin: auto;
+}
+
+.filtrosProdutos {
     padding: 0px 35px 0px 35px;
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.filtrosProdutos a{
+    text-decoration: none;
 }
 
 .selecionaProdutos{
     font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 9px;
-
 }
 
 .selecionaProdutos > span{
@@ -225,13 +233,12 @@ a.rodapeLink {
     text-decoration: none;
 }
 
-
 .selecionaProdutosReiniciar {
     padding-left: 15px;
-   
 }
 
 .estoqueProdutos{
+    padding-top: 5px;
     font-size: 16px;
 }
 
@@ -243,9 +250,18 @@ a.rodapeLink {
     padding-left: 25px;
 }
 
+.dropdownPreco{
+    width: 40%;
+}
+
+ .maiorPrecoReiniciar{
+    font-size: 15px;
+   text-decoration: none;
+   cursor: pointer;
+   text-align: right;
+}
+
 /*PRODUTOS FILTROS FIM*/
-
-
 
 
 /*Area de responsividade*/
