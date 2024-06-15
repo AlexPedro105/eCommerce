@@ -5,9 +5,9 @@
                 <img src="img/banner.png" class="img-fluid img-thumbnail img-lg bannerSite" alt="Imagem responsiva" />
             </div>
             <div class="col-12 mt-3">
-                <button class="btn btn-primary buttonBanner mx-auto" type="button">
+                <a class="btn btn-primary buttonBanner mx-auto" href="produtos.php" type="button">
                     Comece já
-                </button>
+                </a>
             </div>
         </div>
     </section>
