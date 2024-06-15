@@ -1,4 +1,4 @@
-<?php include "includes/header.php"; ?>
+<?php include "includes/header.php";?>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -30,18 +30,22 @@
                 <ul class="dropdown-menu dropdownPreco">
                     <div class="row">
                         <div class="col-md-12">
-                            <li class="dropdown-header">
-                                    <a class="maiorPrecoReiniciar"> Reiniciar</a>
+                            <li class="dropdown-header teste">
+                                  <p class="maiorPrecoReiniciar"> <a> Reiniciar</a> </p>
                             </li>
                         </div>
                     </div>
                     <li>
-                        <p class="precoDePara"><label class="form-label"> R$: </label> <input class="form-control" type="text" value="" placeholder="De ">
-                           <label class="form-label"> R$: </label> <input class="form-control" type="text" placeholder="Para " value=""></p>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="precoDePara"><label class="form-label"> R$: </label> <input class="form-control" type="text" value="" placeholder="De "> </p>
+                                <p class="precoDePara"> <label class="form-label"> R$: </label> <input class="form-control" type="text" placeholder="Para " value=""> </p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </span>
         </div>
     </div>
 </div>
-<?php include "includes/footer.php"; ?>
+<?php include "includes/footer.php";?>

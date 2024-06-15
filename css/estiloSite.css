@@ -251,14 +251,25 @@ a.rodapeLink {
 }
 
 .dropdownPreco{
-    width: 40%;
+    width: 30%;
 }
 
- .maiorPrecoReiniciar{
-    font-size: 15px;
+.maiorPrecoReiniciar{
+   font-size: 17px;
    text-decoration: none;
    cursor: pointer;
-   text-align: right;
+   text-align: center;
+}
+
+.precoDePara{
+    padding-left: 15px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.precoDePara > label{
+    padding: 0px 8px 0px 2px;
 }
 
 /*PRODUTOS FILTROS FIM*/
