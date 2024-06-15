@@ -26,12 +26,12 @@
                 </ul>
             </span>
             <span class="filtrosProdutos"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Preço: </a>
-                <ul class="dropdown-menu dropdownPreco">
+                Preço </a>
+                <ul class="dropdown-menu dropdownFiltros">
                     <div class="row">
                         <div class="col-md-12">
                             <li class="dropdown-header">
-                                  <p class="maiorPrecoReiniciar"> <a> Reiniciar</a> </p>
+                                  <p class="dropReiniciar"> <a> Reiniciar</a> </p>
                             </li>
                         </div>
                     </div>
@@ -47,11 +47,11 @@
             </span>
             <span class="filtrosProdutos"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Categorias </a>
-                <ul class="dropdown-menu dropdownPreco">
+                <ul class="dropdown-menu dropdownFiltros">
                     <div class="row">
                         <div class="col-md-12">
                             <li class="dropdown-header">
-                                <p class="maiorPrecoReiniciar"> <a>Reiniciar</a> </p>
+                                <p class="dropReiniciar"> <a>Reiniciar</a> </p>
                             </li>
                         </div>
                     </div>

@@ -250,11 +250,11 @@ a.rodapeLink {
     padding-left: 25px;
 }
 
-.dropdownPreco{
+.dropdownFiltros{
     width: 30%;
 }
 
-.maiorPrecoReiniciar{
+.dropReiniciar{
    font-size: 17px;
    text-decoration: none;
    cursor: pointer;
