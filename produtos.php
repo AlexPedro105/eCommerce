@@ -9,7 +9,7 @@
         <div class="col-md-12 ">
             <span class="filtrosProdutos">Fitros: </span>
             <span class="filtrosProdutos"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Disponivel</a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu dropdownFiltroDisponivel">
                     <li class="dropdown-header">
                         <p class="selecionaProdutos">
                             <span>12 </span> Selecionados
@@ -30,84 +30,86 @@
                 </ul>
             </span>
             <span class="filtrosProdutos"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Preço </a>
-                <ul class="dropdown-menu dropdownFiltros">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <li class="dropdown-header">
-                                <p class="dropReiniciar"> <a> Reiniciar</a> </p>
-                            </li>
-                        </div>
-                    </div>
-                    <li>
+                    Preço
+                    <ul class="dropdown-menu dropdownFiltroPreco">
                         <div class="row">
                             <div class="col-md-12">
-                                <p class="precoDePara"><label class="form-label"> R$: </label> <input class="form-control" type="text" value="" placeholder="De "> </p>
-                                <p class="precoDePara"> <label class="form-label"> R$: </label> <input class="form-control" type="text" placeholder="Para " value=""> </p>
+                                <li class="dropdown-header">
+                                    <p class="dropReiniciar"> <a> Reiniciar</a> </p>
+                                </li>
                             </div>
                         </div>
-                    </li>
-                </ul>
+                        <li>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="precoDePara"><label class="form-label"> R$: </label> <input class="form-control" type="text" value="" placeholder="De "> </p>
+                                    <p class="precoDePara"> <label class="form-label"> R$: </label> <input class="form-control" type="text" placeholder="Para " value=""> </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </a>
             </span>
             <span class="filtrosProdutos"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Categorias </a>
-                <ul class="dropdown-menu dropdownFiltros">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <li class="dropdown-header">
-                                <p class="dropReiniciar"> <a>Reiniciar</a> </p>
-                            </li>
+                    Categorias
+                    <ul class="dropdown-menu dropdownFiltroCategorias">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <li class="dropdown-header">
+                                    <p class="dropReiniciar"> <a>Reiniciar</a> </p>
+                                </li>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p class="d-inline-flex">
-                                <input class="form-check-input d-flex" type="checkbox" value="">
-                                <i class="fa fa-desktop" aria-hidden="true"></i>
-                                <label> Desktop </label>
-                            </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="d-inline-flex">
+                                    <input class="form-check-input d-flex" type="checkbox" value="">
+                                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                                    <label> Desktop </label>
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="d-inline-flex">
+                                    <input class="form-check-input d-flex" type="checkbox" value="">
+                                    <i class="fa fa-laptop" aria-hidden="true"></i>
+                                    <label> Notbooks </label>
+                                </p>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <p class="d-inline-flex">
-                                <input class="form-check-input d-flex" type="checkbox" value="">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                                <label> Notbooks </label>
-                            </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="d-inline-flex">
+                                    <input class="form-check-input d-flex" type="checkbox" value="">
+                                    <i class="fa fa-tablet" aria-hidden="true"></i>
+                                    <label> Celulares </label>
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="d-inline-flex">
+                                    <input class="form-check-input d-flex" type="checkbox" value="">
+                                    <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                                    <label> Informática </label>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p class="d-inline-flex">
-                                <input class="form-check-input d-flex" type="checkbox" value="">
-                                <i class="fa fa-tablet" aria-hidden="true"></i>
-                                <label> Celulares </label>
-                            </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="d-inline-flex">
+                                    <input class="form-check-input d-flex" type="checkbox" value="">
+                                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                                    <label> Video Games </label>
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="d-inline-flex">
+                                    <input class="form-check-input d-flex" type="checkbox" value="">
+                                    <i class="fa fa-television" aria-hidden="true"></i>
+                                    <label> Tv's </label>
+                                </p>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <p class="d-inline-flex">
-                                <input class="form-check-input d-flex" type="checkbox" value="">
-                                <i class="fa fa-keyboard-o" aria-hidden="true"></i>
-                                <label> Informática </label>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p class="d-inline-flex">
-                                <input class="form-check-input d-flex" type="checkbox" value="">
-                                <i class="fa fa-gamepad" aria-hidden="true"></i>
-                                <label> Video Games </label>
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <p class="d-inline-flex">
-                                <input class="form-check-input d-flex" type="checkbox" value="">
-                                <i class="fa fa-television" aria-hidden="true"></i>
-                                <label> Tv's </label>
-                            </p>
-                        </div>
-                    </div>
-                </ul>
+                    </ul>
+                </a>
             </span>
         </div>
     </div>
