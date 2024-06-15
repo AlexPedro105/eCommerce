@@ -214,21 +214,21 @@ a.rodapeLink {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.filtrosProdutos a{
+.filtrosProdutos a {
     text-decoration: none;
 }
 
-.selecionaProdutos{
+.selecionaProdutos {
     font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 9px;
 }
 
-.selecionaProdutos > span{
-    padding-right:8px;
+.selecionaProdutos>span {
+    padding-right: 8px;
 }
 
-.selecionaProdutos > a{
+.selecionaProdutos>a {
     cursor: pointer;
     text-decoration: none;
 }
@@ -237,38 +237,30 @@ a.rodapeLink {
     padding-left: 15px;
 }
 
-.estoqueProdutos{
+.estoqueProdutos {
     padding-top: 5px;
     font-size: 16px;
 }
 
-.estoqueProdutos, input{
-    padding-left: 15px;
-}
-
-.estoqueProdutos > span {
-    padding-left: 25px;
-}
-
-.dropdownFiltros{
+.dropdownFiltros {
     width: 30%;
 }
 
-.dropReiniciar{
-   font-size: 17px;
-   text-decoration: none;
-   cursor: pointer;
-   text-align: center;
+.dropReiniciar {
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
 }
 
-.precoDePara{
+.precoDePara {
     padding-left: 15px;
     width: 90%;
     display: flex;
     align-items: center;
 }
 
-.precoDePara > label{
+.precoDePara>label {
     padding: 0px 8px 0px 2px;
 }
 

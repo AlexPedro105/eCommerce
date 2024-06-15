@@ -1,4 +1,4 @@
-<?php include "includes/header.php";?>
+<?php include "includes/header.php"; ?>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -17,21 +17,25 @@
                         </p>
                     </li>
                     <li role="separator" class="divider"></li>
-                    <li>
-                        <div class="estoqueProdutos form-check"><input class="form-check-input" type="checkbox" value="emEstoque"> Em estoque <span> 12</span> </div>
-                    </li>
-                    <li>
-                        <p class="estoqueProdutos"> <input class="form-check-input" type="checkbox" value=""> Fora de estoque <span> 12</span></p>
-                    </li>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <li>
+                                <div class="estoqueProdutos form-check"><input class="form-check-input" type="checkbox" value="emEstoque"> Em estoque <span id="qtdStock"> 12</span> </div>
+                            </li>
+                            <li>
+                                <p class="estoqueProdutos"> <input class="form-check-input" type="checkbox" value=""> Fora de estoque <span> 12</span></p>
+                            </li>
+                        </div>
+                    </div>
                 </ul>
             </span>
             <span class="filtrosProdutos"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Preço </a>
+                    Preço </a>
                 <ul class="dropdown-menu dropdownFiltros">
                     <div class="row">
                         <div class="col-md-12">
                             <li class="dropdown-header">
-                                  <p class="dropReiniciar"> <a> Reiniciar</a> </p>
+                                <p class="dropReiniciar"> <a> Reiniciar</a> </p>
                             </li>
                         </div>
                     </div>
@@ -46,7 +50,7 @@
                 </ul>
             </span>
             <span class="filtrosProdutos"><a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categorias </a>
+                    Categorias </a>
                 <ul class="dropdown-menu dropdownFiltros">
                     <div class="row">
                         <div class="col-md-12">
@@ -57,50 +61,50 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                        <p class="d-inline-flex">
-                            <input class="form-check-input d-flex" type="checkbox" value="">
+                            <p class="d-inline-flex">
+                                <input class="form-check-input d-flex" type="checkbox" value="">
                                 <i class="fa fa-desktop" aria-hidden="true"></i>
-                                    <label> Desktop </label>
-                                </p>
+                                <label> Desktop </label>
+                            </p>
                         </div>
                         <div class="col-md-6">
-                        <p class="d-inline-flex">
-                            <input class="form-check-input d-flex" type="checkbox" value="">
-                            <i class="fa fa-laptop" aria-hidden="true"></i>
-                                    <label> Notbooks </label>
-                                </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                        <p class="d-inline-flex">
-                            <input class="form-check-input d-flex" type="checkbox" value="">
-                            <i class="fa fa-tablet" aria-hidden="true"></i>
-                                    <label> Celulares </label>
-                                </p>
-                        </div>
-                        <div class="col-md-6">
-                        <p class="d-inline-flex">
-                            <input class="form-check-input d-flex" type="checkbox" value="">
-                            <i class="fa fa-keyboard-o" aria-hidden="true"></i>
-                                    <label> Informática </label>
-                                </p>
+                            <p class="d-inline-flex">
+                                <input class="form-check-input d-flex" type="checkbox" value="">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                                <label> Notbooks </label>
+                            </p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                        <p class="d-inline-flex">
-                            <input class="form-check-input d-flex" type="checkbox" value="">
-                            <i class="fa fa-gamepad" aria-hidden="true"></i>
-                                    <label> Video Games </label>
-                                </p>
+                            <p class="d-inline-flex">
+                                <input class="form-check-input d-flex" type="checkbox" value="">
+                                <i class="fa fa-tablet" aria-hidden="true"></i>
+                                <label> Celulares </label>
+                            </p>
                         </div>
                         <div class="col-md-6">
-                        <p class="d-inline-flex">
-                            <input class="form-check-input d-flex" type="checkbox" value="">
-                            <i class="fa fa-television" aria-hidden="true"></i>
-                                    <label> Tv's </label>
-                                </p>
+                            <p class="d-inline-flex">
+                                <input class="form-check-input d-flex" type="checkbox" value="">
+                                <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+                                <label> Informática </label>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="d-inline-flex">
+                                <input class="form-check-input d-flex" type="checkbox" value="">
+                                <i class="fa fa-gamepad" aria-hidden="true"></i>
+                                <label> Video Games </label>
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="d-inline-flex">
+                                <input class="form-check-input d-flex" type="checkbox" value="">
+                                <i class="fa fa-television" aria-hidden="true"></i>
+                                <label> Tv's </label>
+                            </p>
                         </div>
                     </div>
                 </ul>
@@ -114,8 +118,7 @@
                 <div class="col-md-4">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
-                                alt="Nome do Produto" />
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
                             <h3 class="nome">Nome do Produto</h3>
@@ -130,8 +133,7 @@
                 <div class="col-md-4">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
-                                alt="Nome do Produto" />
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
                             <h3 class="nome">Nome do Produto</h3>
@@ -146,8 +148,7 @@
                 <div class="col-md-4">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
-                                alt="Nome do Produto" />
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
                             <h3 class="nome">Nome do Produto</h3>
@@ -162,8 +163,7 @@
                 <div class="col-md-4">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
-                                alt="Nome do Produto" />
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
                             <h3 class="nome">Nome do Produto</h3>
@@ -178,8 +178,7 @@
                 <div class="col-md-4">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
-                                alt="Nome do Produto" />
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
                             <h3 class="nome">Nome do Produto</h3>
@@ -194,8 +193,7 @@
                 <div class="col-md-4">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
-                                alt="Nome do Produto" />
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
                             <h3 class="nome">Nome do Produto</h3>
@@ -211,4 +209,4 @@
         </div>
     </section>
 </div>
-<?php include "includes/footer.php";?>
+<?php include "includes/footer.php"; ?>
