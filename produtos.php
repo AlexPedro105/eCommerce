@@ -47,5 +47,108 @@
             </span>
         </div>
     </div>
+    <hr>
+    <section class="cardProd">
+        <div class="d-flex row">
+            <div class="card-group">
+                <div class="col-md-4">
+                    <div class="card cardProduto">
+                        <div class="imagem">
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                                alt="Nome do Produto" />
+                        </div>
+                        <div class="card-body informacoes">
+                            <h3 class="nome">Nome do Produto</h3>
+                            <p class="descricao">descrição do Produto</p>
+                            <p class="preco">R$ 100,00</p>
+                            <button class="botaoCarrinho">
+                                Adicionar ao carrinho
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card cardProduto">
+                        <div class="imagem">
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                                alt="Nome do Produto" />
+                        </div>
+                        <div class="card-body informacoes">
+                            <h3 class="nome">Nome do Produto</h3>
+                            <p class="descricao">descrição do Produto</p>
+                            <p class="preco">R$ 100,00</p>
+                            <button class="botaoCarrinho">
+                                Adicionar ao carrinho
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card cardProduto">
+                        <div class="imagem">
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                                alt="Nome do Produto" />
+                        </div>
+                        <div class="card-body informacoes">
+                            <h3 class="nome">Nome do Produto</h3>
+                            <p class="descricao">descrição do Produto</p>
+                            <p class="preco">R$ 100,00</p>
+                            <button class="botaoCarrinho">
+                                Adicionar ao carrinho
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card cardProduto">
+                        <div class="imagem">
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                                alt="Nome do Produto" />
+                        </div>
+                        <div class="card-body informacoes">
+                            <h3 class="nome">Nome do Produto</h3>
+                            <p class="descricao">descrição do Produto</p>
+                            <p class="preco">R$ 100,00</p>
+                            <button class="botaoCarrinho">
+                                Adicionar ao carrinho
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card cardProduto">
+                        <div class="imagem">
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                                alt="Nome do Produto" />
+                        </div>
+                        <div class="card-body informacoes">
+                            <h3 class="nome">Nome do Produto</h3>
+                            <p class="descricao">descrição do Produto</p>
+                            <p class="preco">R$ 100,00</p>
+                            <button class="botaoCarrinho">
+                                Adicionar ao carrinho
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card cardProduto">
+                        <div class="imagem">
+                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                                alt="Nome do Produto" />
+                        </div>
+                        <div class="card-body informacoes">
+                            <h3 class="nome">Nome do Produto</h3>
+                            <p class="descricao">descrição do Produto</p>
+                            <p class="preco">R$ 100,00</p>
+                            <button class="botaoCarrinho">
+                                Adicionar ao carrinho
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 <?php include "includes/footer.php";?>
