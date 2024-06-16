@@ -1,0 +1,7 @@
+{
+    "livePreviewUseDevServer": true,
+    "livePreviewServerURL": "http://localhost/E-Commerce-1/eCommerce/produtos.php",
+    "livePreviewServerProjectPath": "/C:\\wamp64\\www\\E-Commerce-1\\eCommerce",
+    "livePreviewHotReloadSupported": true,
+    "livePreviewFramework": "Custom"
+}

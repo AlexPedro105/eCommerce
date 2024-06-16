@@ -201,6 +201,81 @@ a.rodapeLink {
 
 /*Seção Footer FIM*/
 
+/*TELA PRODUTOS */
+/*PRODUTOS FILTROS INICIO*/
+
+.dropdown-menu .divider {
+    margin: auto;
+}
+
+.filtrosProdutos {
+    padding: 0px 35px 0px 35px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.filtrosProdutos a {
+    text-decoration: none;
+}
+
+.selecionaProdutos {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 9px;
+}
+
+.selecionaProdutos>span {
+    padding-right: 8px;
+}
+
+.selecionaProdutos>a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.selecionaProdutosReiniciar {
+    padding-left: 15px;
+}
+
+.dropdownFiltroDisponivel{
+    margin-left: 7%;
+}
+
+.estoqueProdutos {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.dropdownFiltroPreco {
+    width: 30%;
+    margin-left: 15%;
+}
+
+.dropReiniciar {
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.dropdownFiltroCategorias {
+    width: 30%;
+    margin-left: 26%;
+}
+
+.precoDePara {
+    padding-left: 15px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.precoDePara>label {
+    padding: 0px 8px 0px 2px;
+}
+
+/*PRODUTOS FILTROS FIM*/
+
 
 /*Area de responsividade*/
 @media screen and (max-width:1280px) {
