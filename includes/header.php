@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/estiloSite.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
     <title>InovaByte Site</title>
 </head>
 
 <body>
     <nav class="navbar navbar-static-top navegacaoMenu bg-primary d-flex flex-column align-items: center">
-        <!--INICIO FIM navbar navbar-static-top-->
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
@@ -35,8 +37,7 @@
                             Produtos</a>
                     </li>
                     <li class="dropdown barraNavegacao">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-product-hunt"
-                                aria-hidden="true"></i>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-product-hunt" aria-hidden="true"></i>
                             Categorias <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li class="dropdown-header">Setup</li>
@@ -69,7 +70,7 @@
                         </ul>
                     </li>
                     <li class="barraNavegacao">
-                        <a href="#contato"><i class="fa faNaNuser-o" aria-hidden="true"></i>
+                        <a href="contato.php"><i class="fa-solid fa-address-book"></i></i>
                             Entrar em contato</a>
                     </li>
                 </ul>
@@ -95,7 +96,6 @@
             </div>
         </div>
     </nav>
-    <!--CABEÇALHO FIM navbar navbar-static-top-->
     <header>
         <h4 class="tituloHeader">Seja Bem vindo</h4>
     </header>
