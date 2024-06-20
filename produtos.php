@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h2 class="">Produtos</h2>
+            <h2>Produtos</h2>
         </div>
     </div>
     <div class="row">
@@ -20,10 +20,10 @@
                     <div class="row">
                         <div class="col-md-12">
                             <li>
-                                <div class="estoqueProdutos form-check"><input class="form-check-input" type="checkbox" value="emEstoque"> Em estoque <span id="qtdStock"> 12</span> </div>
+                                <div class="estoqueProdutos form-check"><input class="form-check-input check" type="checkbox"  value="emEstoque"> Em estoque <span id="qtdStock"> 12</span> </div>
                             </li>
                             <li>
-                                <p class="estoqueProdutos"> <input class="form-check-input" type="checkbox" value=""> Fora de estoque <span> 12</span></p>
+                                <p class="estoqueProdutos form-check"> <input class="form-check-input check" type="checkbox" value=""> Fora de estoque <span> 12</span></p>
                             </li>
                         </div>
                     </div>
@@ -63,14 +63,14 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <p class="d-inline-flex">
-                                    <input class="form-check-input d-flex" type="checkbox" value="">
+                                    <input class="form-check-input d-flex check" type="checkbox" value="">
                                     <i class="fa fa-desktop" aria-hidden="true"></i>
                                     <label> Desktop </label>
                                 </p>
                             </div>
                             <div class="col-md-6">
                                 <p class="d-inline-flex">
-                                    <input class="form-check-input d-flex" type="checkbox" value="">
+                                    <input class="form-check-input d-flex check" type="checkbox" value="">
                                     <i class="fa fa-laptop" aria-hidden="true"></i>
                                     <label> Notbooks </label>
                                 </p>
@@ -79,14 +79,14 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <p class="d-inline-flex">
-                                    <input class="form-check-input d-flex" type="checkbox" value="">
+                                    <input class="form-check-input d-flex check" type="checkbox" value="">
                                     <i class="fa fa-tablet" aria-hidden="true"></i>
                                     <label> Celulares </label>
                                 </p>
                             </div>
                             <div class="col-md-6">
                                 <p class="d-inline-flex">
-                                    <input class="form-check-input d-flex" type="checkbox" value="">
+                                    <input class="form-check-input d-flex check" type="checkbox" value="">
                                     <i class="fa fa-keyboard-o" aria-hidden="true"></i>
                                     <label> Informática </label>
                                 </p>
@@ -95,14 +95,14 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <p class="d-inline-flex">
-                                    <input class="form-check-input d-flex" type="checkbox" value="">
+                                    <input class="form-check-input d-flex check" type="checkbox" value="">
                                     <i class="fa fa-gamepad" aria-hidden="true"></i>
                                     <label> Video Games </label>
                                 </p>
                             </div>
                             <div class="col-md-6">
                                 <p class="d-inline-flex">
-                                    <input class="form-check-input d-flex" type="checkbox" value="">
+                                    <input class="form-check-input d-flex check" type="checkbox" value="">
                                     <i class="fa fa-television" aria-hidden="true"></i>
                                     <label> Tv's </label>
                                 </p>
