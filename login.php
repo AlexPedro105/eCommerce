@@ -18,8 +18,8 @@
                     <div class="col-md-8">
                         <div class="mb-4">
                             <h2>Sign in <strong>InovaByte</strong></h2>
-                            <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Cupiditate labore quia impedit cumque non molestiae nam consectetur.</p>
+                           <!-- <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Cupiditate labore quia impedit cumque non molestiae nam consectetur.</p> -->
                         </div>
                         <form action="#" method="post">
                             <div class="form-group">
