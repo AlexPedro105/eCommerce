@@ -1,0 +1,15 @@
+.contents{
+    padding: 7rem 0;
+    font-family:"Roboto",sans-serif;
+    background-color: #ecf1f1;
+    margin-top: 14rem;
+}
+
+.caption{
+    color: #888;
+}
+
+.lmCheck{
+    position: relative;
+    top: 3px;
+}
