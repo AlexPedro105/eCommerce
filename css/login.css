@@ -1,0 +1,25 @@
+.contents{
+    padding: 7rem 0;
+    font-family:"Roboto",sans-serif;
+    background-color: #ecf1f1;
+    margin-top: 14rem;
+}
+
+.caption{
+    color: #888;
+}
+
+.lmCheck{
+    position: relative;
+    top: 3px;
+}
+
+#esqueceuSenha{
+    text-decoration: none;
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 109px;
+}
+#esqueceuSenha:hover{
+    color: blue;
+}

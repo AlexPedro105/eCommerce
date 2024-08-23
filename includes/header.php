@@ -89,7 +89,7 @@
                         <a href="#carrinho"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href="#login"><i class="fa fa-sign-in" aria-hidden="true"></i>
+                        <a href="login.php"><i class="fa fa-sign-in" aria-hidden="true"></i>
                             Login!</a>
                     </li>
                 </ul>
