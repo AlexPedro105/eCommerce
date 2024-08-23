@@ -32,6 +32,10 @@
                                 <label class="control caption control-checkbox ">Lembre-me
                                 <input type="checkbox" class="form-check-input lmCheck"> </label>
                             </div>
+                            <div class="form-group">
+                                <button class="btn btn-button btn-primary">Login</button>
+                                <button class="btn btn-button btn-primary">Criar conta</button>
+                            </div>
                         </form>
                     </div>
                 </div>
