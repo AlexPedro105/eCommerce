@@ -31,6 +31,7 @@
                             <div class="form-group ">
                                 <label class="control caption control-checkbox ">Lembre-me
                                 <input type="checkbox" class="form-check-input lmCheck"> </label>
+                                <a href="#esqueceuSenha" id="esqueceuSenha">Esqueceu a Senha</a>
                             </div>
                             <div class="form-group">
                                 <button class="btn btn-button btn-primary">Login</button>
