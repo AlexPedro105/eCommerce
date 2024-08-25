@@ -19,15 +19,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="row emailNewPass">
-			<div class="col-md-6">
-				<div class="form-group">
-					<input type="email" name="emailNewPass" class="form-control  " placeholder="Email">
+		<div class="row ">
+			<div class="col-md-12 ">
+				<div class="form-group  emailNewPass ">
+					<input type="email" name="emailNewPass" class="form-control emailNew" placeholder="Email">
+					<button class="btn btn-primary btnEmailNew">Enviar</button>
 				</div>
 			</div>
-			<div class="col-md-6">
-				<button class="btn btn-primary"> Enviar</button>
-			</div>	
 		</div>
 	</div>
 </body>
