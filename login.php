@@ -23,7 +23,7 @@
                         </div>
                         <form action="#" method="post">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="username" placeholder="Nome">
+                                <input type="email" class="form-control" id="username" placeholder="Email">
                             </div>
                             <div class="form-group">
                                 <input type="password" class="form-control" id="password" placeholder="Senha">
@@ -31,7 +31,7 @@
                             <div class="form-group ">
                                 <label class="control caption control-checkbox ">Lembre-me
                                 <input type="checkbox" class="form-check-input lmCheck"> </label>
-                                <a href="#esqueceuSenha" id="esqueceuSenha">Esqueceu a Senha</a>
+                                <a href="esqueceuSenha.php" id="esqueceuSenha">Esqueceu a Senha</a>
                             </div>
                             <div class="form-group">
                                 <button class="btn btn-button btn-primary">Login</button>
