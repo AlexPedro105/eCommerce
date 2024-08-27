@@ -23,3 +23,19 @@
 #esqueceuSenha:hover{
     color: blue;
 }
+
+/*Pagina esqueceu a senha INICIO*/
+.emailNewPass{
+    width: 35%;
+}
+.emailNew{
+    position: relative;
+    left: 91%;
+}
+
+.btnEmailNew{
+    position: relative;
+    left: 132%;
+    margin-top: 12px;
+}
+/*Pagina esqueceu a senha FIM*/
