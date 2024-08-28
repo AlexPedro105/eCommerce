@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/estiloSite.css" rel="stylesheet" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/estiloSite.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -24,7 +24,7 @@
                     <span class="icon-bar bg-danger"></span>
                 </button>
                 <!--<a id="tituloSistema" class="navbar-brand navColorWhite " href="#"><i class="fa fa-gg-circle" aria-hidden="true"></i> Sistema Alex</a>-->
-                <a href="#"><img src="img/img1-removebg-preview.png" alt="Minha Logo" height="55" width="60" /></a>
+                <a href="#"><img src="../img/img1-removebg-preview.png" alt="Minha Logo" height="55" width="60" /></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">

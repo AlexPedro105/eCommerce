@@ -1,4 +1,4 @@
-<?php include "includes/header.php"; ?>
+<?php include "../includes/header.php"; ?>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -120,7 +120,7 @@
                 <div class="col-md-4">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
+                            <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
                             <h3 class="nome">Nome do Produto</h3>
@@ -135,7 +135,7 @@
                 <div class="col-md-4">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
+                            <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
                             <h3 class="nome">Nome do Produto</h3>
@@ -150,7 +150,7 @@
                 <div class="col-md-4">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
+                            <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
                             <h3 class="nome">Nome do Produto</h3>
@@ -165,7 +165,7 @@
                 <div class="col-md-4">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
+                            <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
                             <h3 class="nome">Nome do Produto</h3>
@@ -180,7 +180,7 @@
                 <div class="col-md-4">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
+                            <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
                             <h3 class="nome">Nome do Produto</h3>
@@ -195,7 +195,7 @@
                 <div class="col-md-4">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
+                            <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
                             <h3 class="nome">Nome do Produto</h3>
@@ -211,4 +211,4 @@
         </div>
     </section>
 </div>
-<?php include "includes/footer.php"; ?>
+<?php include "../includes/footer.php"; ?>

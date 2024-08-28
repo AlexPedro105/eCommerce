@@ -1,8 +1,8 @@
-<?php include "includes/header.php"; ?>
+<?php include "../includes/header.php"; ?>
 <section>
         <div class="row">
             <div class="col-12">
-                <img src="img/banner.png" class="img-fluid img-thumbnail img-lg bannerSite" alt="Imagem responsiva" />
+                <img src="../img/banner.png" class="img-fluid img-thumbnail img-lg bannerSite" alt="Imagem responsiva" />
             </div>
             <div class="col-12 mt-3">
                 <a class="btn btn-primary buttonBanner mx-auto" href="produtos.php" type="button">
@@ -26,7 +26,7 @@
                 <div class="col-md-3">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                            <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
                                 alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
@@ -42,7 +42,7 @@
                 <div class="col-md-3">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                            <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
                                 alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
@@ -58,7 +58,7 @@
                 <div class="col-md-3">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                            <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
                                 alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
@@ -74,7 +74,7 @@
                 <div class="col-md-3">
                     <div class="card cardProduto">
                         <div class="imagem">
-                            <img src="img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
+                            <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top"
                                 alt="Nome do Produto" />
                         </div>
                         <div class="card-body informacoes">
@@ -90,4 +90,4 @@
             </div>
         </div>
     </section>
-    <?php include "includes/footer.php"; ?>
+    <?php include "../includes/footer.php"; ?>

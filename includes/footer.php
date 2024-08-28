@@ -54,6 +54,6 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/02aa49a0c5.js" crossorigin="anonymous"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/index.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/index.js"></script>
 </html>

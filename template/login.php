@@ -5,9 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/login.css" rel="stylesheet" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/estiloSite.css" rel="stylesheet" />
+    <link href="../css/login.css" rel="stylesheet" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/estiloSite.css" rel="stylesheet" />
     <title>InovaByte Site</title>
 </head>
 <body>
@@ -42,11 +42,11 @@
                 </div>
             </div>
             <div class="col-md-6 order-md-2">
-                <img src="img/undraw_file_sync_ot38.png" class="img-fluid img-thumbnail img-lg">
+                <img src="../img/undraw_file_sync_ot38.png" class="img-fluid img-thumbnail img-lg">
             </div>
         </div>
     </div>
 </body>
-<script src="js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 
 </html>
