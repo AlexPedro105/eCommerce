@@ -35,7 +35,7 @@
                             </div>
                             <div class="form-group">
                                 <button class="btn btn-button btn-primary">Login</button>
-                                <button class="btn btn-button btn-primary">Criar conta</button>
+                                <button class="btn btn-button btn-primary" href="criarConta.php">Criar conta</button>
                             </div>
                         </form>
                     </div>

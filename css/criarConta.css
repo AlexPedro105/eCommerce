@@ -1,0 +1,18 @@
+input[type="text"], input[type="email"], input[type="number"],input[type="password"] {
+	margin: 5px;
+}
+.cdgVerification{
+	position: relative;
+	left: 4px;
+}
+input[type="checkbox"]{
+	margin-top: 13px;
+	position: relative;
+	top: 2.5px;
+}
+
+.btnCadastrar{
+	position: relative;
+	top: 2.5px;
+	left: 3px;
+}
