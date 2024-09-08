@@ -97,7 +97,7 @@
 						<h1>Cadastre-se</h1>
 					</div>
 					<div class="login-button">
-						<button><a href="#">Entrar</a></button>
+						<button><a href="login.php">Login</a></button>
 					</div>
 				</div>
 				<div class="input-group">
