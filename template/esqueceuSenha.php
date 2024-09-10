@@ -5,27 +5,26 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Esqueceu Senha</title>
-	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<!-- <link rel="stylesheet" type="text/css" href="../css/login.css"> -->
+	<link rel="stylesheet" type="text/css" href="../css/criarConta.css">
 	<link rel="stylesheet" type="text/css " href="../css/bootstrap.min.css">
-
 </head>
 <body>
-	<div class="container contents">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="form-group">
-					<h2 class="text-center">Alteração de Senha</h2>
-					<h5 class="text-center">Digite o email para alteração de senha</h5>
-				</div>
-			</div>
+	<div class="container">
+		<div class="form-image-password">
+			<img src="../img/undraw_forgot_password_re_hxwm.png">
 		</div>
-		<div class="row ">
-			<div class="col-md-12 ">
-				<div class="form-group  emailNewPass ">
-					<input type="email" name="emailNewPass" class="form-control emailNew" placeholder="Email">
-					<button class="btn btn-primary btnEmailNew">Enviar</button>
+		<div class="form">
+			<div class="form-header-password">
+				<div class="title">
+					<h1 class="text-center">Alteração de Senha</h1>
 				</div>
 			</div>
+			<div class="form-group  ">
+				<input type="email" name="emailNewPass" class="form-control input-box" placeholder="Digite o seu Email">
+				<div class="continue-button">
+					<button class="btn btn-primary"><a href="#">Enviar</a></button>
+				</div>
 		</div>
 	</div>
 </body>

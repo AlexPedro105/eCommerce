@@ -172,3 +172,20 @@ body {
         flex-wrap: nowrap;
     }
 }
+
+/*ESQUECI A SENHA*/
+.form-header-password{
+	margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.form-image-password{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fde3a7d7;
+}
+.form-image-password img {
+	width: 31rem;
+}
