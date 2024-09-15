@@ -4,7 +4,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="../css/login.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/criarConta.css">
 	<title>Criar conta</title>
@@ -77,8 +76,23 @@
 							placeholder="Digite sua senha novamente" required>
 					</div>
 				</div>
+				<div class="codigo-inputs">
+                    <div class="codigo-title">
+                        <h6>Meio de recebimento de confirmação de conta</h6>
+                    </div>
+                    <div class="codigo-group">
+                        <div class="codigo-input">
+                            <input id="email" type="radio" name="codigo">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="codigo-input">
+                            <input id="sms" type="radio" name="codigo">
+                            <label for="sms">SMS</label>
+                        </div>
+                    </div>
+                </div>
 				<div class="continue-button">
-					<button><a href="#">Continuar</a> </button>
+					<button><a href="confirmaCodigoCadastro.php">Continuar</a> </button>
 				</div>
 			</form>
 		</div>
