@@ -20,11 +20,12 @@
 					<h1 class="text-center">Alteração de Senha</h1>
 				</div>
 			</div>
-			<div class="form-group  ">
+			<div class="form-group">
 				<input type="email" name="emailNewPass" class="form-control input-box" placeholder="Digite o seu Email">
 				<div class="continue-button">
 					<button class="btn btn-primary"><a href="#">Enviar</a></button>
 				</div>
+			</div>
 		</div>
 	</div>
 </body>

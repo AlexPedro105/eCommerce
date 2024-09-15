@@ -104,7 +104,7 @@ body {
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .input-box input:hover {
@@ -115,10 +115,14 @@ body {
     outline: 1px solid #6c63ff;
 }
 
-.input-box label {
-    font-size: 0.75rem;
+.input-box label, .codigo-title h6 {
+    font-size: 1rem;
     font-weight: 600;
     color: #000000c0;
+}
+.codigo-input h3{
+     display: flex;
+    justify-content: center;
 }
 
 .input-box input::placeholder {
@@ -134,18 +138,34 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-
+.codigo-group {
+    display: flex;
+    justify-content: left;
+    margin-top: 0.62rem;
+    padding: 0.5rem;
+}
+.codigo-input {
+    display: flex;
+    align-items: center;
+}
+.codigo-input input, .codigo-input label {
+    margin-right: 0.35rem;
+    padding-right: 0.35rem;
+}
+.codigo-input label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000c0;
+}
 .continue-button button:hover {
     background-color: #6b63fff1;
 }
-
 .continue-button button a {
     text-decoration: none;
-    font-size: 0.93rem;
-    font-weight: 500;
+    font-size: 0.99rem;
+    font-weight: 600;
     color: #fff;
 }
-
 @media screen and (max-width: 1330px) {
     .form-image {
         display: none;
@@ -171,6 +191,12 @@ body {
         overflow-y: scroll;
         flex-wrap: nowrap;
     }
+    .input-group-cdg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+}
 }
 
 /*ESQUECI A SENHA*/
@@ -188,4 +214,21 @@ body {
 }
 .form-image-password img {
 	width: 31rem;
+}
+/*Codigo de Recebimento de SMS/EMAIL*/
+.input-group-cdg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.input-box-cdg input{
+    display: flex;
+    justify-content: center;
+    margin: 0.6rem 0;
+    padding: 1.0rem 1.4rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 1.8rem;
 }
