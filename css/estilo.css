@@ -6,16 +6,13 @@
 .barraNavegacao a {
     color: white;
 }
-
 .navColorWhite {
     color: white;
 }
-
 .navbar-toggle{
     background-color: aliceblue;
     border: 5px solid rgb(40, 86, 179);
 }
-
 .navbar-nav > li > a:hover {
     color: white;
     background-color: transparent !important;
@@ -24,7 +21,14 @@
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     transition: all 0.2s ease-in-out;
 }
-  
 .navbar-nav > li > a:focus {
     background-color: transparent !important;
+}
+.img404{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    max-height: 60%;
+    margin: 0 auto;
 }
