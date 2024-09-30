@@ -118,6 +118,7 @@
         <div class="d-flex row">
             <div class="card-group">
                 <div class="col-md-4">
+                    <a href="informacoesProdutos.php" class="cardLink">
                     <div class="card cardProduto">
                         <div class="imagem">
                             <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
@@ -131,8 +132,10 @@
                             </button>
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
+                    <a href="informacoesProdutos.php" class="cardLink">
                     <div class="card cardProduto">
                         <div class="imagem">
                             <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
@@ -146,8 +149,10 @@
                             </button>
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
+                    <a href="informacoesProdutos.php" class="cardLink">
                     <div class="card cardProduto">
                         <div class="imagem">
                             <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
@@ -161,8 +166,10 @@
                             </button>
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
+                    <a href="informacoesProdutos.php" class="cardLink">
                     <div class="card cardProduto">
                         <div class="imagem">
                             <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
@@ -176,8 +183,10 @@
                             </button>
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
+                    <a href="informacoesProdutos.php" class="cardLink">
                     <div class="card cardProduto">
                         <div class="imagem">
                             <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
@@ -191,8 +200,10 @@
                             </button>
                         </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-md-4">
+                    <a href="informacoesProdutos.php" class="cardLink">
                     <div class="card cardProduto">
                         <div class="imagem">
                             <img src="../img/javier-oquendo-centenario-off-1.jpeg" class="card-img-top" alt="Nome do Produto" />
@@ -206,6 +217,7 @@
                             </button>
                         </div>
                     </div>
+                    </a>
                 </div>
             </div>
         </div>
