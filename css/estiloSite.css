@@ -165,6 +165,15 @@ header {
     background-color: #0056b3;
 }
 
+.cardLink{
+    text-decoration: none;
+    color: inherit;
+}
+.cardLink:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
 /*Seção de produtos FIM*/
 
 /*Seção Footer INICIO*/
@@ -291,6 +300,107 @@ a.rodapeLink {
 }
 
 /*PRODUTOS FILTROS - TELA DE PRODUTOS FIM*/
+
+/*informações de Produtos - TELA DE PRODUTOS INICIO */
+
+.contentsInfoProdutos{
+    padding: 7rem 0;
+    font-family:"Roboto",sans-serif;
+    margin-top: 1rem;
+}
+.maisProdutos{
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.marcaProdutos{
+    font-family: serif;
+    color: #707b7c;
+   /* padding-bottom: 3px; */
+}
+.nomeProduto{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.custoProduto{
+    font-family: serif;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.select-menu{
+    width: 220px;
+    margin-bottom: 10px;
+}
+.select-menu .select-btn{
+    display: flex;
+    height: 20px;
+    background: #fff;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.select-btn i{
+    font-size: 13px;
+    transition: 0.3s;
+}
+.select-menu.active .select-btn i{
+    transform: rotate(-180deg);
+}
+.select-menu .options{
+    position: relative;
+    padding: 14px;
+    margin-top: 7px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    display: none;
+}
+.select-menu.active .options{
+    display: block;
+}
+.options .option{
+    display: flex;
+    height: 33px;
+    cursor: pointer;
+    padding: 0 10px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+.options .option:hover{
+    background: #F2F2F2;
+}
+.option .option-text{
+    font-size: 13px;
+    color: #333;
+}
+.qtdProduto{
+    margin-top: 13px;
+}
+.descricaoProduto{
+    margin-top: 10px;
+}
+.compartilharLinkProduto {
+    cursor: pointer;
+    color: #007bff;
+}
+.compartilharLinkProduto:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*informações de Produtos - TELA DE PRODUTOS FIM */
+
 
 /*TELA DE CONTATOS INICIO*/
 .formContato{

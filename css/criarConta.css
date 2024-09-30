@@ -199,7 +199,7 @@ body {
 }
 }
 
-/*ESQUECI A SENHA*/
+/*ESQUECI A SENHA INICIO */
 .form-header-password{
 	margin-bottom: 3rem;
     display: flex;
@@ -215,7 +215,9 @@ body {
 .form-image-password img {
 	width: 31rem;
 }
-/*Codigo de Recebimento de SMS/EMAIL*/
+/*ESQUECI A SENHA FIM */
+
+/*Codigo de Recebimento de SMS/EMAIL INICIO*/
 .input-group-cdg {
     display: flex;
     flex-wrap: wrap;
@@ -232,3 +234,4 @@ body {
     box-shadow: 1px 1px 6px #0000001c;
     font-size: 1.8rem;
 }
+/*Codigo de Recebimento de SMS/EMAIL FIM*/
