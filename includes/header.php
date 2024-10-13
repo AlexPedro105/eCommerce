@@ -86,7 +86,7 @@
                         <a href="#pesquisar"><i class="fa fa-search" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href="#carrinho"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                        <a href="carrinhoCompra.php"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
                     </li>
                     <li>
                         <a href="login.php"><i class="fa fa-sign-in" aria-hidden="true"></i>
