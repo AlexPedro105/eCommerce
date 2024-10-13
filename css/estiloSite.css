@@ -3,24 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     width: auto;
 }
-
 /**/
 .row {
     padding: 0 0;
     margin: 0 0;
 }
-
 /*NAVBAR INICIO*/
-
 .barraNavegacao a,
 .barraNavegacao>li>a {
     color: white;
 }
-
 .navbar-toggle {
     background-color: #007aff;
     border: 5px solid rgb(48, 40, 179);
@@ -59,7 +54,6 @@ body {
 header {
     background-color: #141414;
     padding-bottom: 1px;
-
 }
 
 .tituloHeader {
@@ -68,11 +62,9 @@ header {
     padding-top: 11px;
     text-align: center
 }
-
 /*Cabeçalho FIM*/
 
 /*Banner Site INICIO*/
-
 .img-thumbnail {
     border: 0 solid #000000;
     border-radius: 0;
@@ -100,9 +92,7 @@ header {
     transform: scale(1.1);
     color: white;
 }
-
 /*Banner Site FIM*/
-
 
 /*Seção de produtos INICIO*/
 .nossosProdutos {
@@ -111,7 +101,6 @@ header {
     font-weight: bold;
     font-size: 30px;
 }
-
 .cardProduto {
     width: 300px;
     margin: 20px;
@@ -173,11 +162,9 @@ header {
     text-decoration: none;
     color: inherit;
 }
-
 /*Seção de produtos FIM*/
 
 /*Seção Footer INICIO*/
-
 .rodapeSite {
     background-color: #121212;
     color: white;
@@ -213,13 +200,10 @@ a.rodapeLink {
 .copyrightRodape {
     color: #5a5a5a;
 }
-
 /*Seção Footer FIM*/
-
 
 /*TELA PRODUTOS */
 /*PRODUTOS FILTROS INICIO*/
-
 .dropdown-menu .divider {
     margin: auto;
 }
@@ -298,11 +282,9 @@ a.rodapeLink {
 .check:checked {
     background-color: #007bff;
 }
-
 /*PRODUTOS FILTROS - TELA DE PRODUTOS FIM*/
 
 /*informações de Produtos - TELA DE PRODUTOS INICIO */
-
 .contentsInfoProdutos{
     padding: 7rem 0;
     font-family:"Roboto",sans-serif;
@@ -398,9 +380,7 @@ a.rodapeLink {
     text-decoration: none;
     color: inherit;
 }
-
 /*informações de Produtos - TELA DE PRODUTOS FIM */
-
 
 /*TELA DE CONTATOS INICIO*/
 .formContato{
@@ -414,8 +394,82 @@ a.rodapeLink {
 .btnContato{
     margin-bottom: 20px;
 }
-
 /*TELA DE CONTATOS FIM*/
+
+/*Tela de carrinho de compras inicio */
+.cabecalhoCarrinho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tituloCarrinho{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.voltarLoja{
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    color: #616a6b;
+}
+.voltarLoja:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+.subCabecalhoCarrinho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+    max-height: 100%;
+}
+.subCabecalhoCarrinho p{
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    color:#808080;
+}
+.imgProdutoCarrinho {
+    width: 100px;
+    height: auto;
+}
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 8px;
+}
+.quantity-selector button {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+.quantity-selector input {
+    text-align: center;
+    width: 40px;
+    border: none;
+}
+.btnDescartarProduto{
+    background-color: transparent;
+    border: none;
+    margin-left: 1rem;
+}
+.btnDescartarProduto i {
+    font-size: 20px;
+}
+.btnDescartarProduto:hover{
+    color: blue;
+}
+.totalCompras{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.finalizarCompras{
+    margin-bottom: 2rem;
+}
+/*Tela de carrinho de compras fim */
 
 /*Area de responsividade*/
 @media screen and (max-width:1280px) {
